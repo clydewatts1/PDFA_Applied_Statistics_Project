@@ -77,6 +77,10 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*-checkpoint.ipynb
+.jupyter_cache/
+*.nbconvert.ipynb
 
 # IPython
 profile_default/
@@ -216,3 +220,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Visual Studio Code settings and workspace files
+.vscode/
+
+# JetBrains / PyCharm
+.idea/
+
+# Operating System files (explicitly requested in college assessment checklist)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files, editor backups, and scratchpads
+*.bak
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
